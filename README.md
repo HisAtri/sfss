@@ -3,6 +3,18 @@ Secure File Storage Service
 
 **你真的需要使用对象存储来保存文件吗？**
 
+## B站UP主`码农高天`吃相难看
+
+本人目前B站账号和Github账号均已被此人拉黑。
+
+<https://github.com/gaogaotiantian/soss/issues/4>
+
+为了接广告不惜引导非目标群体用户使用其服务，有意夸大其优点，隐瞒缺点和风险。
+
+我不相信微软程序员没有这些基本的判断能力，纯粹就是为了接广告。
+
+最后奉劝一句，事情不用做的太绝，很多被你拉黑的人都曾经是你的粉丝，而且大家都有一定的技术水平和发声渠道，你这样做只会欲盖弥彰。
+
 ## 使用阿里云OSS的利与弊
 
 ### 优点
@@ -62,3 +74,9 @@ python main.py decrypt -p "C:\Users\user\Music-encryped" -op "C:\Users\user\Musi
 你可以不指定秘钥，程序会自动生成一个秘钥，存储在`key.aes`文件中。
 
 你也可以用自己的秘钥文件替代它。秘钥文件没有格式要求。
+
+### 一些免费的S3兼容对象存储服务
+
+- [Cloudflare R2](https://www.cloudflare.com/r2/) 需要绑卡，基础20GB空间，请求数给的很宽裕。
+- [Tebi](https://tebi.io) 需要绑卡，可以托管静态网站，永久免费套餐包括25G的存储空间和250G的流量（每月）。
+- [七牛云](https://www.qiniu.com) 具体看官网，有免费额度。
